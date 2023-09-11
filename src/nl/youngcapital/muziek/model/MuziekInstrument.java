@@ -14,9 +14,7 @@ public abstract class MuziekInstrument {
 	 }
 	 */
 	
-	
 	public abstract String play();
-	
 	public void komtNietsUit() {
 		System.out.println("Dit is geen resultaat he!");
 	}

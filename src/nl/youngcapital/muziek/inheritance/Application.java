@@ -15,5 +15,8 @@ public class Application {
 		instrument.color = "Red";
 		
 		klant.setMuziekInstrument(instrument);
+		
+		final int age = 55;
+//		age = age + 1; // vout
 	}
 }
