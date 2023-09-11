@@ -1,6 +1,6 @@
 package nl.youngcapital.muziek.model;
 
-public class MuziekInstrument {
+public abstract class MuziekInstrument {
 	
 	public String color;
 	public double price;
@@ -14,9 +14,8 @@ public class MuziekInstrument {
 	 }
 	 */
 	
-	public String  play() {
-		return "Playing a muziekinstrument, tralalallaa";
-	}
+	
+	public abstract String play();
 	
 	public void komtNietsUit() {
 		System.out.println("Dit is geen resultaat he!");

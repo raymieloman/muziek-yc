@@ -11,7 +11,7 @@ public class Application {
 		 <Type> <naam van het object> = new <Type>();
 		 */
 		
-		MuziekInstrument instrument = new MuziekInstrument();
+		MuziekInstrument instrument = new Recorder();
 		instrument.color = "Bruin";
 		instrument.price = 150.00;
 		
